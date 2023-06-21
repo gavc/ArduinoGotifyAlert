@@ -1,6 +1,8 @@
 # ArduinoGotifyAlert
 Arduino Gotify Alert
 
-#include "Gotify.h"
+#include "gotify.h"
 
-sendGotifyNotification("Hello", "World", 5); // Send an alert
+sendGotifyNotification(String title, String message, int priority);
+
+eg: sendGotifyNotification("Hello", "World", 5); // Send an alert
